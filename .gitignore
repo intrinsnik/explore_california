@@ -1,0 +1,22 @@
+# Ignore specific files: 
+tempfile.txt
+
+# Ignore Specific file types: 
+.DS_Store
+*.zip
+*.gz
+
+# Ignore log files under the log directory
+log/*.log
+
+# ignore log rotate files under the log directory
+log/*.log.[0-9]
+
+# Ignore everything in the assets/photoshop folder
+assets/photoshop/
+
+# Ignore everything in the assets/videos folder
+assets/videos/
+
+# Don't ignore tour MP4s in the videos directory
+!assets/videos/tour_*.mp4
