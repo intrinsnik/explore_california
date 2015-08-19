@@ -1,5 +1,6 @@
 # Ignore specific files: 
 tempfile.txt
+tempfile2.txt
 
 # Ignore Specific file types: 
 .DS_Store
